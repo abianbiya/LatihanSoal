@@ -1,0 +1,561 @@
+{
+  "paket_1" :
+  [
+    {
+      "no" : 1,
+      "soal_atas": "Tolong <strong><u>merebus</u></strong> air.",
+      "soal_bawah": "Air untuk <strong><u>minum.</u></strong>",
+      "a": "rebus",
+      "b": "direbus",
+      "c": "minuman",
+      "d": "diminum",
+      "kunci": "a"
+    },
+
+    {
+      "no" : 2,
+      "soal_atas": "<strong><u>Tanaman</u></strong> mangga ini subur.",
+      "soal_bawah": "Ya. Cabangnya sudah <strong><u>kembang</u></strong> ke mana-mana.",
+      "a": "Pohon",
+      "b": "Tumbuhan",
+      "c": "tumbuh",
+      "d": "tunas",
+      "kunci": "c"
+    },
+
+    {
+      "no" : 3,
+      "soal_atas": "<strong><u>Bagaimana</u></strong> kamu terlambat?",
+      "soal_bawah": "Karena tadi <strong><u>terjebak</u></strong> macet.",
+      "a": "Mengapa",
+      "b": "Apa",
+      "c": "terperangkap",
+      "d": "dijebak",
+      "kunci": "a"
+    },
+
+    {
+      "no" : 4,
+      "soal_atas": "<strong><u>Dia memeperoleh donor darah dimana</u></strong>",
+      "soal_bawah": "di <strong><u>kegiatan</u></strong> bakti sosial.",
+      "a": "Tempat dia memperoleh donor darah",
+      "b": "Dimana dia memperoleh donor darah",
+      "c": "peristiwa",
+      "d": "tempat",
+      "kunci": "b"
+    },
+
+    {
+      "no" : 5,
+      "soal_atas": "<strong><u>Kuncinya diletakkan dimana?</u></strong>",
+      "soal_bawah": "<strong><u>Di teras rumah, dekat pot bunga.</u></strong>",
+      "a": "Dimana kuncinya diletakkan",
+      "b": "Kuncinnya di mana diletakkan",
+      "c": "Di dekat pot bunga, teras rumah",
+      "d": "Di teras rumah dekat pot bunga",
+      "kunci": "a"
+    },
+
+    {
+      "no" : 6,
+      "soal_atas": "Hasil <strong><u>analisa penelitian para ahli</u></strong>",
+      "soal_bawah": "Semua pekerja <strong><u>non pribumi</u></strong> mendapat perlakuan yang sama.",
+      "a": "analisis penelitian para ahli",
+      "b": "analisa peneliti para ahli",
+      "c": "nonpribumi",
+      "d": "bukan pribumi",
+      "kunci": "c"
+    },
+
+    {
+      "no" : 7,
+      "soal_atas": "<strong><u>Walau</u></strong> mencari harga murah",
+      "soal_bawah": "<strong><u>Kualitas dan kwantitas</u></strong> juga perlu diperhatikan.",
+      "a": "Walapun",
+      "b": "Meskipun",
+      "c": "kwalitas dan kwantitas",
+      "d": "kualitas dan kuantitas",
+      "kunci": "d"
+    },
+
+    {
+      "no" : 8,
+      "soal_atas": "Kamu ikut <strong><u>bertanggungjawab</u></strong> atas kejadian",
+      "soal_bawah": "yang menimpa <strong><u>massa</u></strong> di atraksi demo tersebut.",
+      "a": "tanggung jawab",
+      "b": "bertanggung jawab",
+      "c": "penduduk",
+      "d": "masyarakat",
+      "kunci": "b"
+    },
+
+    {
+      "no" : 9,
+      "soal_atas": "Dia sedang <strong><u>menyuci</u></strong> mobilnya di garasi",
+      "soal_bawah": "ketika kucingnya <strong><u>tertabrak</u></strong> mobil di depan rumah.",
+      "a": "cuci",
+      "b": "mencuci",
+      "c": "ketabrak",
+      "d": "ditabrak",
+      "kunci": "b"
+    },
+
+    {
+      "no" : 10,
+      "soal_atas": "<strong><u>Bagi para pejabat yang akan rapat</u></strong>",
+      "soal_bawah": "<strong><u>harus berpikir matang dalam membikin keputusan</u></strong>",
+      "a": "Para pejabat yang akan rapat",
+      "b": "Kepada pejabat yang akan rapat",
+      "c": "terlebih dahulu berpikir matang dalam membuat keputusan",
+      "d": "sebelumnya harus berpikir matang dalam membuat keputusan",
+      "kunci": "a"
+    },
+
+    {
+      "no" : 11,
+      "soal_atas": "Sebenarnya <strong><u>dia telah</u> targetkan</strong> mendapatkan medali emas,",
+      "soal_bawah": "<strong><u>tetapi hanya medali perunggu</u></strong> yang didapatkan.",
+      "a": "dia telah menargetkan",
+      "b": "telah dia targetkan",
+      "c": "namun hanya medali perunggu",
+      "d": "akan tetapi hanya medali perunggu",
+      "kunci": "a"
+    },
+
+    {
+      "no" : 12,
+      "soal_atas": "Rapat diagendakan mulai <strong><u>pukul 08:00 W.I.B.</u></strong>",
+      "soal_bawah": "dan rapat dipimpin oleh <strong><u>Wali kota Semarang</u></strong>.",
+      "a": "jam 08.00 WIB.",
+      "b": "pukul 08.00 WIB",
+      "c": "walikota Semarang",
+      "d": "Walikota Semarang",
+      "kunci": "b"
+    },
+
+    {
+      "no" : 13,
+      "soal_atas": "Pembangunan <strong><u><i>homestay</i></u></strong> di daerah puncak makin banyak,",
+      "soal_bawah": "sehingga <strong><u>merusak</u></strong> kawasan hijau.",
+      "a": "hotel",
+      "b": "rumah penginapan",
+      "c": "mengrusaki",
+      "d": "mengrusakkan",
+      "kunci": "b"
+    },
+
+    {
+      "no" : 14,
+      "soal_atas": "Geng motor meresahkan warga karena <strong><u>perusuhan</u></strong>",
+      "soal_bawah": "<strong><u>telah dilakukan</u></strong> di segala tempat dan tidak mengenal waktu.",
+      "a": "kerusuhan",
+      "b": "merusuh",
+      "c": "sudah dilakukan",
+      "d": "telah melakukan",
+      "kunci": "a"
+    },
+
+    {
+      "no" : 15,
+      "soal_atas": "Untuk meningkatkan hasil <strong><u>kreatifitas</u></strong> anak,",
+      "soal_bawah": "orangtua harus melakukan pendekatan dan <strong><u>pelatihan</u></strong>.",
+      "a": "kreatif",
+      "b": "kreativitas",
+      "c": "melatih",
+      "d": "memberi latihan",
+      "kunci": "b"
+    },
+
+    {
+      "no" : 16,
+      "soal_atas": "<strong><u>Harga</u></strong> tas Syahrini <strong><u>seharga</u></strong> mobil Avanza.",
+      "soal_bawah": " ",
+      "a": "Total",
+      "b": "Banyak",
+      "c": "sederajat",
+      "d": "sepadan",
+      "kunci": "d"
+    },
+
+    {
+      "no" : 17,
+      "soal_atas": "<strong><u>Jika besok tidak hujan,</u></strong>",
+      "soal_bawah": "<strong><u>maka saya dan teman-teman akan berlibur</u></strong>",
+      "a": "Kalau besok tidak hujan",
+      "b": "Jikalau besok idak hujan",
+      "c": "saya dan teman-teman akan berlibur",
+      "d": "sehingga saya dan teman-teman akan berlibur",
+      "kunci": "c"
+    },
+
+    {
+      "no" : 18,
+      "soal_atas": "Murid SMK 1 <strong><u>merayakan peringatan atas lahirnya RA Kartini,</u></strong>",
+      "soal_bawah": "<strong><u>dengan pemberian bantuan</u></strong> pada manula.",
+      "a": "melakukan perayaan peringatan atas lahirnya RA Kartini",
+      "b": "membuat peringatan peraayaan atas lahirnya RA Kartini",
+      "c": "dengan memberikan bantuan",
+      "d": "dengan bantuan diberikan",
+      "kunci": "c"
+    },
+
+    {
+      "no" : 19,
+      "soal_atas": "Ibu memerlukan <strong><u>gula Jawa</u></strong> untuk membuat gulali.",
+      "soal_bawah": "Proses pembuatan gulali selama <strong><u>2—3</u></strong> jam.",
+      "a": "gula jawa",
+      "b": "Gula Jawa",
+      "c": "2 s.d. 3",
+      "d": "2 s/d 3",
+      "kunci": "a"
+    },
+
+    {
+      "no" : 20,
+      "soal_atas": "Dalam pertemuan itu <strong><u>membahas peraturan yang perlu diperbarui, misalnya</u></strong> sistem penilaian.",
+      "soal_bawah": "Sistem itu akan <strong><u>diterapkan untuk menguji</u></strong> kompetensi siswa.",
+      "a": "terdapat peraturan yang perlu diperbarui, yaitu",
+      "b": "mengandung peraturan yang perlu diperbarui, antara lain",
+      "c": "dilaksanakan guna uji",
+      "d": "dipakai sebagai ujian",
+      "kunci": "a"
+    },
+
+    {
+      "no" : 21,
+      "soal_atas": "<strong><u>Wakil pertukaran mahasiswa terdiri dari</u></strong> berbagai universitas.",
+      "soal_bawah": "Mereka <strong><u>mendapatkan kepercayaan</u></strong> untuk membawa nama baik Indonesia.",
+      "a": "Perwakilan mahasiswa terdiri dari",
+      "b": "Wakil pertukaran mahasiswa terdiri atas",
+      "c": "mendapat kepercayaan",
+      "d": "didapatkan kepercayaan",
+      "kunci": "b"
+    },
+
+    {
+      "no" : 22,
+      "soal_atas": "<strong><u>Dengan menambahkan personil. maka membuat</u></strong> tim makin kompak.",
+      "soal_bawah": "<strong><u>Selain itu, kekuatan tim akan bertambah.</u></strong>",
+      "a": "Dengan penambahan personil, membuat",
+      "b": "Peningkatan penambahan personil membuat",
+      "c": "Kekuatan tim pun akan bertambah.",
+      "d": "Selain itu kekuatan tim juga akan bertambah.",
+      "kunci": "b"
+    },
+
+    {
+      "no" : 23,
+      "soal_atas": "<strong><u>Psikolog itu menceritakan tentang peristiwa kopi bersianida meracuni Mirna hingga tewas.</u></strong>",
+      "soal_bawah": "<strong><u>Menurutnya. sianida itu yang menyebabkan kematian.</u></strong>",
+      "a": "Psikolog itu bercerita tentang peristiwa kopi bersianida meracuni Mirna hingga tewas.",
+      "b": "Diceritakan oleh psikolog itu mengenai peristiwa Mirna diracuni kopi bersianida hingga tewas.",
+      "c": "Sianida itu, menurutnya, yang menyebabkan kematian.",
+      "d": "Sianida itu yang menyebabkan kematian menurutnya.",
+      "kunci": "a"
+    },
+
+    {
+      "no" : 24,
+      "soal_atas": "<strong><u>Manusia memerlukan cukup makanan bergizi sebagai salah satu kebutuhannya.</u></strong>",
+      "soal_bawah": "<strong><u>Agar sehat. makanan bergizi dimasak sampai matang.</u></strong>",
+      "a": "Kebutuhan manusia salah satunya yaitu makanan bergizi.",
+      "b": "Kecukupan makanan bergizi merupakan salah satu kebutuhan manusia.",
+      "c": "Agar sehat, kita harus memasak makanan bergizi sampai matang.",
+      "d": "Untuk mendapatkan makanan bergizi yang layak harus dimasak hingga matang.",
+      "kunci": "b"
+    },
+
+    {
+      "no" : 25,
+      "soal_atas": "<strong><u>Pembasmian jentik nyamuk sering tidak dilakukan masyarakat</u></strong>",
+      "soal_bawah": "<strong><u>Meskipun telah dihimbau dan diperintahkan, mungkin masyarakat malas sebelum ada keluarganya yang terjangkit demam berdarah.</u></strong>",
+      "a": "Membasmi jentik nyamuk seringkali masyarakat tidak melakukan.",
+      "b": "Membasmi jentik nyamuk, masyarakat sering tidak melakukan.",
+      "c": "Mungkin saja masyarakat malas sebelum ada keluarganya yang terjangkit demam berdarah meskipun telah dihimbau dan diperintahkan.",
+      "d": "Meskipun masyarakat telah dihimbau dan diperintahkan, masyarakat malas sebelum ada keluarganya yang terjangkit demam berdarah.",
+      "kunci": "d"
+    },
+
+  ],
+
+  "paket_2" :
+  [
+    
+    {
+      "no" : 1,
+      "soal_atas": "Kami sedang <strong><u>membahas</u></strong> gaji pegawai.",
+      "soal_bawah": "Gaji pegawai akan <strong><u>naik</u></strong>.",
+      "a": "bahas",
+      "b": "dibahas",
+      "c": "dinaikkan",
+      "d": "naikkan",
+      "kunci": "a"
+    },
+    
+    {
+      "no" : 2,
+      "soal_atas": "<strong><u>Kenapa</u></strong> kau terus memperhatikannya?",
+      "soal_bawah": "Karena wajahnya <strong><u>menarik.</u></strong>",
+      "a": "Mengapa",
+      "b": "Bagaimana",
+      "c": "memukau",
+      "d": "menyenangkan",
+      "kunci": "a"
+    },
+
+    {
+      "no" : 3,
+      "soal_atas": "Kamu mau telepon <strong><u>kemana?</u></strong>",
+      "soal_bawah": "telepon <strong><u>kakakku.</u></strong>",
+      "a": "siapa",
+      "b": "apa",
+      "c": "kakak saya",
+      "d": "kakak",
+      "kunci": "a"
+    },
+
+    {
+      "no" : 4,
+      "soal_atas": "<strong><u>Di desaku mengadakan</u></strong> lomba makan kerupuk.",
+      "soal_bawah": "<strong><u>untuk memperingati</u></strong> HUT Kemerdekaan RI.",
+      "a": "Desaku mengadakan",
+      "b": "Desaku diadakan",
+      "c": "sebagai peringatan",
+      "d": "dalam rangka memperingati",
+      "kunci": "a"
+    },
+
+    {
+      "no" : 5,
+      "soal_atas": "<strong><u>Kamu mau pergi dengan siapa?</u></strong>",
+      "soal_bawah": "<strong><u>Teman sekolahku, Lia namanya</u></strong>",
+      "a": "Dengan siapa kamu pergi",
+      "b": "Siapa yang menemanimu pergi",
+      "c": "Lia namanya, teman sekolahku",
+      "d": "Teman sekolahku Lia namanya",
+      "kunci": "b"
+    },
+
+    {
+      "no" : 6,
+      "soal_atas": "Dalam <strong><u>krisis moneter</u></strong> ini ",
+      "soal_bawah": "banyak <strong><u>bus antar kota</u></strong> yang mengurangi trayeknya",
+      "a": "Krisis Moneter",
+      "b": "Krisis monater",
+      "c": "bis antar kota",
+      "d": "bus antarkota",
+      "kunci": "d"
+    },
+
+    {
+      "no" : 7,
+      "soal_atas": "Para penonton <strong><u>bertepuktangan</u></strong>",
+      "soal_bawah": "ketika pentas <strong><u>teater</u></strong> telah selesai",
+      "a": "bertepuk tangan",
+      "b": "tepuk tangan",
+      "c": "theater",
+      "d": "sandiwara",
+      "kunci": "a"
+    },
+
+    {
+      "no" : 8,
+      "soal_atas": "Momen <strong><u>tatkala</u></strong> hasil tes kehamilan menunjukkan positif",
+      "soal_bawah": "<strong><u>kadang</u></strong> kondisi ini banyak membuat sebuah keluarga sangat bahagia.",
+      "a": "ketika",
+      "b": "saat",
+      "c": "terkadang",
+      "d": "kadang-kadang",
+      "kunci": "c"
+    },
+
+    {
+      "no" : 9,
+      "soal_atas": "Karena berhalangan hadir, bupati <strong><u>menugasi</u></strong> saya untuk",
+      "soal_bawah": "membuka secara resmi pelatihan dan <strong><u>pesuluhan</u></strong> pertanian ini.",
+      "a": "menugaskan",
+      "b": "tugasi",
+      "c": "persuluhan",
+      "d": "penyuluhan",
+      "kunci": "d"
+    },
+
+    {
+      "no" : 10,
+      "soal_atas": "<strong><u>Bagi para tamu undangan yang saya hormati</u></strong>",
+      "soal_bawah": "<strong><u>Silakan menikmati kudapan yang disediakan</u></strong>",
+      "a": "Para tamu undangan yang saya hormati",
+      "b": "Kepada tamu undangan yang saya hormati",
+      "c": "Dipersilakan nikmati kudapan yang disediakan",
+      "d": "Menikmati kudapat dipersilakan",
+      "kunci": "a"
+    },
+
+    {
+      "no" : 11,
+      "soal_atas": "Sebenarnya <strong><u>dia telah targetkan</u></strong> pekerjaan selesai hari Minggu,",
+      "soal_bawah": "<strong><u>tetapi dia sakit</u></strong> sehingga pekerjaan tidak selesai tepat waktu.",
+      "a": "dia telah menargetkan",
+      "b": "telah dia targetkan",
+      "c": "namun dia sakit",
+      "d": "akan tetapi dia sakit",
+      "kunci": "a"
+    },
+
+    {
+      "no" : 12,
+      "soal_atas": "Presiden akan tiba pada <strong><u>pukul 10:00 W.I.B.</u></strong>",
+      "soal_bawah": "dan akan dijemput oleh <strong><u>Gubernur Kepulauan Bangka Belitung.</u></strong>",
+      "a": "jam 10.00 WIB.",
+      "b": "pukul 10.00 WIB",
+      "c": "gubernur Kepulauan Bangka Belitung",
+      "d": "gubernur kepulauan Bangka Belitung",
+      "kunci": "b"
+    },
+
+    {
+      "no" : 13,
+      "soal_atas": "Pembangunan <strong><u><i>homestay</i></u></strong> di daerah puncak menurut warga asli sekitar,",
+      "soal_bawah": "<strong><u>dominan</u></strong> oleh orang Jakarta.",
+      "a": "hotel",
+      "b": "rumah penginapan",
+      "c": "didominasi",
+      "d": "didominir",
+      "kunci": "c"
+    },
+
+    {
+      "no" : 14,
+      "soal_atas": "Atlet <strong><u>petembak</u></strong> yang mengikuti kejuaraan dunia",
+      "soal_bawah": "<strong><u>telah disediakan</u></strong> fasilitas yang memadai oleh pemerintah.",
+      "a": "penembak",
+      "b": "penembakan",
+      "c": "sudah disediakan",
+      "d": "telah tersedia",
+      "kunci": "a"
+    },
+
+    {
+      "no" : 15,
+      "soal_atas": "Sebagai panitia lomba <strong><u>objektif</u></strong> sangat diperlukan,",
+      "soal_bawah": "sehingga peserta tidak merasa panitia <strong><u>berpihak</u></strong> kepada peserta tertentu",
+      "a": "obejektivitas",
+      "b": "objektivisme",
+      "c": "memihak",
+      "d": "pemihakan",
+      "kunci": "a"
+    },
+
+    {
+      "no" : 16,
+      "soal_atas": "<strong><u>Luas</u></strong> tanah yang diwakafkan <strong><u>seluas</u></strong> 500 meter.",
+      "soal_bawah": " ",
+      "a": "Jumlah",
+      "b": "Total",
+      "c": "selebar",
+      "d": "sebanyak",
+      "kunci": "c"
+    },
+
+    {
+      "no" : 17,
+      "soal_atas": "<strong><u>Jika tidak latihan rutin,</u></strong>",
+      "soal_bawah": "<strong><u>maka Anda tidak akan menang.</u></strong>",
+      "a": "Kalau tidak dilakukan latihan rutin",
+      "b": "Jikalau tidak latihan rutin",
+      "c": "kemenangan tidak akan diperoleh",
+      "d": "Anda tidak akan menang",
+      "kunci": "d"
+    },
+
+    {
+      "no" : 18,
+      "soal_atas": "Murid SMK 1 <strong><u>merayakan peringatan atas lahirnya RA Kartini,</u></strong>",
+      "soal_bawah": "<strong><u>dengan pemberian bantuan</u></strong> pada manula.",
+      "a": "melakukan perayaan peringatan atas lahirnya RA Kartini",
+      "b": "membuat peringatan perayaan atas lahirnya RA Kartini",
+      "c": "dengan memberikan bantuan",
+      "d": "dengan bantuan diberikan",
+      "kunci": "c"
+    },
+
+    {
+      "no" : 19,
+      "soal_atas": "Nama ilmiah <strong><u>Semangka Bojonegoro</u></strong> adalah <i>Citrullus lanatus</i>.",
+      "soal_bawah": "Buah itu memiliki berat rata-rata <strong><u>4—5</u></strong> kilogram.",
+      "a": "semangka bojonegoro",
+      "b": "semangka Bojonegoro",
+      "c": "4 s.d. 5",
+      "d": "4 s/d 5",
+      "kunci": "a"
+    },
+
+    {
+      "no" : 20,
+      "soal_atas": "Dalam rapat komite itu <strong><u>membahas peraturan yang perlu diperbarui, misalnya</u></strong> sistem penilaian.",
+      "soal_bawah": "Sistem itu akan <strong><u>diterapkan untuk menguji</u></strong> kompetensi siswa.",
+      "a": "terdapat peraturan yang perlu diperbarui, yaitu",
+      "b": "mengandung peraturan yang perlu diperbarui, antara lain",
+      "c": "dilaksanakan guna uji",
+      "d": "dipakai sebagai ujian",
+      "kunci": "a"
+    },
+
+    {
+      "no" : 21,
+      "soal_atas": "<strong><u>Universitas Indonesia dimana dia memperoleh gelar</u></strong> doktornya.",
+      "soal_bawah": "Dia <strong><u>mendapatkan nilai</u></strong> memuaskan atas disertasinya.",
+      "a": "Universitas Indonesia dia peroleh gelar",
+      "b": "Universitas Indonesia tempat dia memperoleh gelar",
+      "c": "mendapat nilai",
+      "d": "terdapat nilai",
+      "kunci": "b"
+    },
+
+    {
+      "no" : 22,
+      "soal_atas": "<strong><u>Dengan menyelenggarakan pelatihan, maka meningkatkan</u></strong> kemampuan para guru.",
+      "soal_bawah": "<strong><u>Selain itu. kompetensi guru tercapai.</u></strong>",
+      "a": "Dengan penyelenggaraan pelatihan meningkatkan",
+      "b": "Penyelenggaraan pelatihan meningkatkan",
+      "c": "Kompetensi guru pun tercapai.",
+      "d": "Selain itu kompetensi guru juga akan tercapai.",
+      "kunci": "b"
+    },
+
+    {
+      "no" : 23,
+      "soal_atas": "<strong><u>Hiperpoligot itu menceritakan tentang belajar menguasai enam bahasa sekaligus.</u></strong>",
+      "soal_bawah": "<strong><u>Menurutnya, menguasai enam bahasa itu menyebabkan dia dikagumi banyak orang.</u></strong>",
+      "a": "Hiperpoligot itu bercerita tentang menguasai belajar enam bahasa sekaligus.",
+      "b": "Diceritakan oleh hiperpoligot itu mengenai belajar menguasai enam bahasa sekaligus.",
+      "c": "Menguasai enam bahasa itu, menurutnya, menyebabkan dia dikagumi banyak orang.",
+      "d": "Menguasai enam bahasa itu menyebabkan banyak orang mengagguminya menurutnya.",
+      "kunci": "a"
+    },
+
+    {
+      "no" : 24,
+      "soal_atas": "<strong><u>Penyakit kanker serviks merupakan salah satu penyakit yang mengerikan dan berbahaya</u></strong>",
+      "soal_bawah": "<strong><u>sebab pencegahan dan pengobatannya jarang yang tahu.</u></strong>",
+      "a": "Penyakit kanker serviks merupakan salah satu penyakit yang mengerikan dan membahayakan",
+      "b": "Penyakit kanker serviks adalah penyakit yang mengerikan dan berbahaya",
+      "c": "karena pencegahan dan cara pengobatannya jarang yang tahu.",
+      "d": "sebab pencegahan dan cara pengobatannya jarang yang tahu.",
+      "kunci": "a"
+    },
+
+    {
+      "no" : 25,
+      "soal_atas": "<strong><u>Pada bacaan anak-anak harus memberikan contoh yang baik </u></strong>",
+      "soal_bawah": "<strong><u>sebab anak-anak merupakan peniru yang hebat.</u></strong>",
+      "a": "Bacaan anak-anak harus berisi contoh yang baik.",
+      "b": "Pada bacaan anak-anak berikanlah contoh yang baik.",
+      "c": "karena anak-anak adalah peniru yang hebat.",
+      "d": "sebab anak peniru yang hebat.",
+      "kunci": "a"
+    },
+
+  ]
+
+}

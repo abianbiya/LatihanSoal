@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SoalActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/toolbar"/>
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:id="@+id/no"
+        android:text="1"
+        android:elevation="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_rounded_blue"
+        android:padding="8dp"
+        android:layout_marginBottom="17dp"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:id="@+id/sv">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SEKSI MERESPONS KAIDAH"
+                android:layout_marginTop="24dp"
+                android:textSize="20sp"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"/>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:id="@+id/cv"
+                android:layout_below="@id/title">
+
+                <RelativeLayout
+                    android:padding="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:id="@+id/soal_atas"
+                        android:textSize="18sp"
+                        android:text="Sebenarnya dia telah targetkan mendapatkan medali emas,"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_marginTop="8dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/soal_atas"
+                        android:textSize="18sp"
+                        android:text="(A) "
+                        android:id="@+id/a"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp" />
+
+                    <TextView
+                        android:layout_marginTop="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/a_nya"
+                        android:textSize="18sp"
+                        android:layout_toRightOf="@id/a"
+                        android:layout_below="@id/soal_atas"
+                        android:text="dia telah menargetkan"/>
+
+                    <TextView
+                        android:layout_marginTop="8dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/a_nya"
+                        android:textSize="18sp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:text="(B) "
+                        android:id="@+id/b"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/b_nya"
+                        android:textSize="18sp"
+                        android:layout_toRightOf="@id/b"
+                        android:layout_marginTop="8dp"
+                        android:layout_below="@id/a_nya"
+                        android:text="telah dia targetkan"/>
+
+                    <TextView
+                        android:layout_marginTop="8dp"
+                        android:layout_width="wrap_content"
+                        android:id="@+id/soal_bawah"
+                        android:textSize="18sp"
+                        android:layout_below="@id/b_nya"
+                        android:text="tetapi hanya medali perunggu yang didapatkan."
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_marginTop="8dp"
+                        android:layout_width="wrap_content"
+                        android:textSize="18sp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/soal_bawah"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:text="(C) "
+                        android:id="@+id/c"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:id="@+id/c_nya"
+                        android:layout_toRightOf="@id/c"
+                        android:layout_below="@id/soal_bawah"
+                        android:layout_marginTop="8dp"
+                        android:text="namun hanya medali perunggu"/>
+
+                    <TextView
+                        android:layout_marginTop="8dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/c_nya"
+                        android:textSize="18sp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:text="(D) "
+                        android:id="@+id/d"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/d_nya"
+                        android:textSize="18sp"
+                        android:layout_toRightOf="@id/d"
+                        android:layout_below="@id/c_nya"
+                        android:layout_marginTop="8dp"
+                        android:text="akan tetapi hanya medali perunggu"/>
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/cv"
+                android:layout_marginBottom="16dp"
+                android:id="@+id/ll"
+                android:gravity="center">
+
+                <Button
+                    android:layout_width="70dp"
+                    android:id="@+id/a_btn"
+                    android:textColor="@color/white"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_rounded_gray"
+                    android:layout_below="@id/cv"
+                    android:text="A"
+                    android:layout_marginRight="34dp"/>
+
+                <Button
+                    android:layout_width="70dp"
+                    android:id="@+id/b_btn"
+                    android:textColor="@color/white"
+                    android:layout_toRightOf="@id/a_btn"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_rounded_gray"
+                    android:layout_below="@id/cv"
+                    android:text="B"
+                    android:layout_marginLeft="34dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/ll"
+                android:gravity="center"
+                android:layout_marginBottom="60dp">
+
+                <Button
+                    android:layout_width="70dp"
+                    android:id="@+id/c_btn"
+                    android:textColor="@color/white"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_rounded_gray"
+                    android:layout_below="@id/cv"
+                    android:text="C"
+                    android:layout_marginRight="34dp"/>
+
+                <Button
+                    android:layout_width="70dp"
+                    android:id="@+id/d_btn"
+                    android:textColor="@color/white"
+                    android:layout_toRightOf="@id/a_btn"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_rounded_gray"
+                    android:layout_below="@id/cv"
+                    android:text="D"
+                    android:layout_marginLeft="34dp"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="12dp"
+        android:id="@+id/next"
+        android:backgroundTint="@color/blue_bar"
+        android:src="@drawable/ic_chevron_right_black_24dp"
+        />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="12dp"
+        android:backgroundTint="@color/blue_bar"
+        android:id="@+id/prev"
+        android:src="@drawable/ic_chevron_left_black_24dp"
+        />
+    
+
+
+</RelativeLayout>
