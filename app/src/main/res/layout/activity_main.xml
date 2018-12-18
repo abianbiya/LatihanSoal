@@ -18,64 +18,94 @@
         android:layout_margin="16dp"
         android:id="@+id/title"/>
 
-    <ImageButton
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
         android:layout_below="@id/title"
-        android:id="@+id/test1"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:background="@drawable/test"
-        android:layout_marginTop="10dp"
-        android:layout_centerHorizontal="true"/>
-    <TextView
-        android:layout_width="wrap_content"
+        android:gravity="center_vertical"
+        android:id="@+id/ll1"
+        android:padding="16dp">
+
+        <ImageButton
+            android:id="@+id/test1"
+            android:layout_width="100dp"
+            android:layout_marginLeft="24dp"
+            android:layout_height="100dp"
+            android:background="@drawable/test"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv1"
+            android:text="Latihan Soal 1"
+            android:layout_marginLeft="32dp"
+            android:textStyle="bold"
+
+            android:layout_marginRight="48dp"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/test1"
-        android:id="@+id/tv1"
-        android:text="Latihan Soal 1"
-        android:layout_centerHorizontal="true"
-        android:textStyle="bold"
-        android:textSize="16sp"
-        android:layout_marginTop="8dp"/>
+        android:orientation="horizontal"
+        android:layout_below="@id/ll1"
+        android:id="@+id/ll2"
+        android:gravity="center_vertical"
+        android:padding="16dp">
 
-    <ImageButton
-        android:id="@+id/test2"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="50dp"
-        android:background="@drawable/test"
-        android:layout_below="@id/test1"
-        android:layout_centerHorizontal="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/test2"
+            android:id="@+id/tv2"
+            android:text="Latihan Soal 2"
+            android:layout_marginLeft="48dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"/>
 
-    <TextView
-        android:layout_width="wrap_content"
+        <ImageButton
+            android:id="@+id/test2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="32dp"
+            android:background="@drawable/test"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/test2"
-        android:id="@+id/tv2"
-        android:text="Latihan Soal 2"
-        android:layout_centerHorizontal="true"
-        android:textStyle="bold"
-        android:textSize="16sp"
-        android:layout_marginTop="8dp"/>
+        android:orientation="horizontal"
+        android:layout_below="@id/ll2"
+        android:id="@+id/ll3"
+        android:gravity="center_vertical"
+        android:padding="16dp">
 
-    <ImageButton
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_below="@id/test2"
-        android:background="@drawable/info"
-        android:layout_marginTop="50dp"
-        android:id="@+id/info"
-        android:layout_centerHorizontal="true" />
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/test2"
+            android:background="@drawable/info"
+            android:layout_marginTop="50dp"
+            android:id="@+id/info"
+            android:layout_centerHorizontal="true" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/info"
-        android:id="@+id/tv3"
-        android:text="Tentang Aplikasi"
-        android:layout_centerHorizontal="true"
-        android:textStyle="bold"
-        android:textSize="16sp"
-        android:layout_marginTop="8dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/info"
+            android:id="@+id/tv3"
+            android:text="Tentang Aplikasi"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"/>
+    </LinearLayout>
 
     <ImageButton
         android:layout_width="100dp"
